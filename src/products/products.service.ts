@@ -18,7 +18,6 @@ export class ProductsService {
       description,
       price,
     );
-
     this.products.push(newProduct);
     return newProduct;
   }
